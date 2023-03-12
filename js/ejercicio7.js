@@ -11,7 +11,7 @@
 let piramideInversa = prompt("Ingrese un numero del 1 al 50 inclusive");
 
 if (!isNaN(piramideInversa) && piramideInversa <= 50 && piramideInversa >0) {
-  for (let i = piramideInversa; i >= 1; i--) {
+  for (let i = piramideInversa=i >= 1; i--) {
     for (let j = i; j >= 1; j--) {
       document.write(i);
     }
